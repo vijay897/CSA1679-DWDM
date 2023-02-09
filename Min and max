@@ -1,0 +1,6 @@
+numbers <- c(1, 5, 2, 100,0,8, 3)
+
+min_value <- min(numbers)
+max_value <- max(numbers)
+
+cat("The minimum value is", min_value, "and the maximum value is", max_value, ".")
