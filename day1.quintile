@@ -1,0 +1,7 @@
+data <- c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+first_quintile <- quantile(data, 0.2)
+second_quintile <- quantile(data, 0.4)
+third_quintile <- quantile(data, 0.6)
+fourth_quintile <- quantile(data, 0.8)
+fifth_quintile <- quantile(data, 1)
+print(c(first_quintile, second_quintile, third_quintile, fourth_quintile, fifth_quintile))
