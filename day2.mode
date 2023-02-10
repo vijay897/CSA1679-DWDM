@@ -1,0 +1,9 @@
+find_mode <- function(x) {
+  u <- unique(x)
+  tab <- tabulate(match(x, u))
+  u[tab == max(tab)]
+}
+
+data <- c(1, 2,2, 3, 4, 4, 4, 4, 5, 6)
+
+find_mode(data)
